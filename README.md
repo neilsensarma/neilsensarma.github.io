@@ -1,25 +1,66 @@
-# Nilavrah Sensarma — Portfolio Website
 
-A responsive, single-page portfolio highlighting projects in machine learning, generative AI, and computational biology.
+# Personal Portfolio
 
-## Preview locally
+My personal portfolio website showcases my background, technical skills, and projects in Machine Learning, Artificial Intelligence, and Computational Biology.
 
-Open `index.html` in your browser. All content is static; no build step is required. Fonts load from Google Fonts, with local fallbacks.
+🌐 **Live Website:** [neilsensarma.github.io](https://neilsensarma.github.io)
 
-## Publish on GitHub Pages
+## About
 
-1. Create a **public** repository named `neilsensarma.github.io` under the GitHub account `neilsensarma`.
-2. Upload **all the files in this folder** to the root of that repository (not inside an additional folder).
-3. In **Settings → Pages**, choose **Deploy from a branch**, branch **main**, folder **/(root)**, and Save.
-4. Once GitHub Pages finishes deploying, your website should be available at **https://neilsensarma.github.io/**.
+I'm a graduate with dual Master's degrees in Computational Science & Engineering and Bioinformatics from the Georgia Institute of Technology. 
 
-You can also use a different repository name and publish using its Pages URL (usually `https://neilsensarma.github.io/repository-name/`).
+My interests include Machine Learning, Generative AI, Large Language Models, Data Science, and Computational Biology. I enjoy developing computational solutions, exploring complex datasets, and building practical applications.
 
-## Customize
+## Featured Projects
 
-- Edit text and project links in `index.html`.
-- Adjust colors, typography, and layout in `styles.css`.
-- Change the initial graphic and responsive navigation behavior in `script.js`.
-- Update favicon artwork in `favicon.svg`.
+### Cancer Bioinformatics RAG System
+A domain-specific Retrieval-Augmented Generation (RAG) system for answering scientific questions using biomedical literature.
 
-**Note:** Academic project descriptions are intentionally conservative; add measured evaluation results and links as projects are finalized. This site does not contain a downloadable CV yet—add one once you decide which resume variant to share.
+**Technologies:** Python, Llama 3.1, llama.cpp, ChromaDB, Sentence Transformers, Cross-Encoder Reranking
+
+[View Project](https://github.com/neilsensarma/cancer_rag_llm)
+
+### Single-Cell Analysis of Pancreatic Cancer
+Single-cell RNA sequencing analysis of pancreatic ductal adenocarcinoma (PDAC) samples before and after chemotherapy, exploring cellular heterogeneity and tumor microenvironment composition.
+
+**Technologies:** R, Seurat, scRNA-seq, UMAP, Differential Expression Analysis
+
+[View Project](https://github.com/neilsensarma/SingleCellAnalysis-PrePostChemoPDAC)
+
+### Wildfire Occurrence Prediction
+A machine learning project investigating wildfire occurrence prediction using environmental and geospatial data.
+
+**Technologies:** Python, scikit-learn, Machine Learning, Data Analysis
+
+## Technologies
+
+- **Programming:** Python, R, Bash, SQL
+- **Machine Learning:** scikit-learn, TensorFlow, XGBoost
+- **Generative AI:** LLMs, RAG, llama.cpp, Hugging Face, ChromaDB
+- **Bioinformatics:** Seurat, DESeq2, Nextflow, STAR, HISAT2, BWA-MEM, VEP
+- **Development:** Git, GitHub, Linux, SLURM, Jupyter
+
+## Website
+
+The portfolio is built using HTML, CSS, and JavaScript, with a responsive layout designed for desktop and mobile devices.
+
+### Running Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/neilsensarma/neilsensarma.github.io.git
+cd neilsensarma.github.io
+```
+
+Open `index.html` in your browser.
+
+### Deployment
+
+The website is hosted using GitHub Pages and deployed from the repository's `main` branch.
+
+## Contact
+
+- **LinkedIn:** [nilavra-sensarma](https://www.linkedin.com/in/nilavra-sensarma/)
+- **GitHub:** [neilsensarma](https://github.com/neilsensarma)
+- **Email:** [nilavrasensarma@gmail.com](mailto:nilavrasensarma@gmail.com)
